@@ -100,7 +100,8 @@
 
 	/* ---------- Motion ---------- */
 	var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-	var finePointer = window.matchMedia('(pointer: fine)').matches;
+	// any-pointer: notebooks con pantalla táctil reportan 'coarse' como puntero principal aunque tengan mouse
+	var finePointer = window.matchMedia('(any-pointer: fine)').matches;
 
 	/* Red de datos en canvas (hero): nodos que derivan, se conectan y reaccionan al cursor.
 	   Se pausa fuera de pantalla o con la pestaña oculta; con reduced-motion dibuja un solo cuadro. */
