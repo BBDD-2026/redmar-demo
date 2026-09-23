@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="REDMAR">
+  <rect width="200" height="200" rx="40" fill="#10151F"/>
+  <g transform="translate(-30 -5) scale(1.3)">
+    <path d="M72.98,68.8 L100,22 L127.02,68.8 L116.63,80.8 L100,52 L83.37,80.8 Z" fill="#22D3E0"/>
+    <path d="M140.53,92.2 L167.55,139 L113.51,139 L108.31,124 L141.57,124 L124.94,95.2 Z" fill="#2E8CF0"/>
+    <path d="M86.49,139 L32.45,139 L59.47,92.2 L75.06,95.2 L58.43,124 L91.69,124 Z" fill="#1554D6"/>
+    <path d="M100,22 L93,34.12 L107,34.12 Z" fill="#FFAE1F"/>
+  </g>
+</svg>
